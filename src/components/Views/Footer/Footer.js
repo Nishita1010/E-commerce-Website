@@ -104,7 +104,7 @@ export const Footer = () => {
             <div className="footer-col">
               <h4 className="ruhi">Contact</h4>
               <ul>
-                <li className="list"> Address: 12345</li>
+                <li className="list"> Address:vduwvcuiejc</li>
                 <li className="list"> Email: freggies@gmail.com</li>
                 <li className="list"> Phone: +91 84562 09871</li>
                 <li className="list"> Payment Accepted</li>
