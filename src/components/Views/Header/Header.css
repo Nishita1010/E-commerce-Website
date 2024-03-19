@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    position: absolute;
+    
+}
+
+.small{
+    position: absolute;
+    display: flex;
+    color: aqua;
+}
