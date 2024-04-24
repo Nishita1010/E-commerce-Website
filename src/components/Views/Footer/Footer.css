@@ -1,16 +1,16 @@
 .my-container{
-    background-color:#425a5a;
+    background-color:#45595b !important;
     padding-left: 100px; 
     padding-right: 100px; 
 
 }
 
 a:hover{
-    color: rgba(249, 222, 15, 0.934);
+    color: #ffb524 !important;
 }
 .heading{
  
-    color:rgb(145, 211, 40); 
+    color:#91d328; 
     cursor: pointer;
     font-weight: 200;
     font-size: 25px; 
@@ -18,7 +18,7 @@ a:hover{
 }
 .subheading{
     display:flex;
-    color: rgba(249, 222, 15, 0.934);;
+    color: #ffb524 !important;;
     font-size: 18px;
     text-decoration: none;   
     
@@ -30,10 +30,6 @@ a:hover{
     flex-direction: column;
     margin-bottom: 20px;
     margin-left:20px ;
-}
-
-.footer-col .ruhi a{
-    color:  rgba(255, 255, 255, .5);
 }
 
 
@@ -50,9 +46,9 @@ ul{
 }
 
 .my-line{
-    border: solid rgba(249,222,15,0.934);
+    border: solid #ffb524;
     opacity: 0.9;
-     border-width: 1.5px; 
+     border-width: 1px; 
      margin-top: 50px;
    
 }
@@ -64,7 +60,7 @@ ul{
     height:45px;
     line-height: 42px ;  
     background-color: transparent;
-    border-color: rgba(249, 222, 15, 0.934);
+    border-color: #ffb524 !important;
     border: 1.5px solid rgba(249,222,15,0.934);
     justify-content:center ;
     text-align: center ;
@@ -74,7 +70,7 @@ ul{
 }
 
 .my-btn:hover{
-    background-color: rgba(249, 222, 15, 0.934); 
+    background-color: #ffb524 !important; 
     color: White;
     transition: 0.4s; 
 }
@@ -112,12 +108,12 @@ ul{
 }
 .social{
     /* display: row; */
-    color: rgba(249, 222, 15, 0.934);
+    color: #ffb524 !important;
     font-size: 16px;
     margin-right: 15px;
      background-color: transparent;
      border-radius: 50%;
-     border: 1px solid  rgba(249, 222, 15, 0.934);
+     border: 1px solid  #ffb524 !important;
      padding: 10px ;
      width: 40px;
      height: 40px;
@@ -126,21 +122,27 @@ ul{
      line-height: 10px;
 }
 .social:hover{
-    background-color: rgba(249, 222, 15, 0.934); 
+    background-color: #ffb524 !important; 
     color: black;
     transition: 0.4s; 
 }
 
 .social_links{
-    float: right;
+    align-items: end;
 }
 
-.footer-col.ruhi.list a{
-    color: rgba(255, 255, 255, .5);
-
+.footer-col.col.ruhi.list ul a{
+    color: rgba(255, 255, 255, .5) !important;
+    margin-left: -10px;
 }
 
 .upperpart{
     display: table-row;
+}
+.searchbar{
+    width: 450px;
+    height:50px;
+    border-radius: 50px;
+    border-style: none;
 }
 

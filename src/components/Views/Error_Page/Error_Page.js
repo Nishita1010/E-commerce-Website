@@ -5,7 +5,7 @@ export const Error_Page = () => {
     <div className="error">
       <a>
         {" "}
-        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+        <i className="fa fa-exclamation-triangle" aria-hidden="true"></i>
       </a>
 
       <h1> 404 </h1>
