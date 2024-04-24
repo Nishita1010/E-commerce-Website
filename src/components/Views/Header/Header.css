@@ -1,11 +1,151 @@
-.container{
+.container-fluid{
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+.uppermost{
+border-radius: 230px 100px;
+padding: 20px;
+}
+
+.bg-primary{
+    background-color: #81c408!important;
+}
+
+.text-color{
+    color:  #81c408 !important;
+}
+.txt{
+    color: #ffb524 !important;
+    font-size:15px;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(0,0,0,0.55) !important;
+    border-color: rgba(0,0,0,0.1) !important;
+    float: right;
+}
+.border .border-light-subtle{
+    width: 50px;
+    height: 50px;
+}
+.border-secondary{
+    border-color: #ffb524 !important;
+    border-style: solid;
+}
+.rounded-circle{
+    border-color: #ffb524 !important;
+}
+
+.btn-search {
+    color: #81c408 !important;
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: 600;
+    transition: .4s;
+}
+.btn-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-sm-square {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-md-square {
+    width: 44px;
+    height: 44px;
+}
+
+.btn-lg-square {
+    width: 56px;
+    height: 56px;
+}
+
+.btn-md-square {
+    padding: 0;
     display: flex;
-    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.btn.border-secondary {
+    transition: 0.4s;
+}
+
+.border{
+border: 1px solid #dee2e6 !important;
+}
+
+.nav{
+    display: inline;
+}
+
+.fixed-top {
+    transition: 0.5s;
+    background: var(--bs-white) !important;
+    border: 0;
+}
+
+.uppermost {
+    padding: 20px;
+    border-radius: 230px 100px;
+}
+
+.uppermost .top-txt {
+    font-size: 16px;
+    line-height: 0;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.uppermost .top-link {
+    font-size: 16px;
+    line-height: 0;
+    letter-spacing: 1px;
+    text-align: right;
+    align-items: center;
+    /* margin-top: -100px; */
     
 }
 
-.small{
-    position: absolute;
-    display: flex;
-    color: aqua;
+.uppermost .top-link a {
+    letter-spacing: 1px;
 }
+
+.uppermost .top-link a small:hover {
+    color: #ffb524 !important;
+    transition: 0.4s;
+}
+
+.uppermost .top-link a small:hover i {
+    color: var(--bs-primary) !important;
+}
+
+.middle-contents{
+    width: 650px;
+    justify-content: center;
+    margin-left: 427px;
+    
+}
+
+.nav-link:hover{
+    color: #81c408;
+    transition: 0.4s;
+    cursor: pointer;
+
+
+}
+.cart{
+    color:#81c408;
+    font-size: 30px;
+}
+
+
+

@@ -6,19 +6,28 @@ export const Footer = () => {
   return (
     <footer>
       <div className="my-container">
-        <div className="upperpart">
-          <div className="heading">
-            <h1>Freggies</h1>
-          </div>
-          <br></br>
+        <div className="upperpart row g-4">
           <div>
-            {" "}
-            <a className="subheading" href="#">
-              Fresh Products
-            </a>
+            <div className="heading col-lg-3">
+              <h1>Freggies</h1>
+            </div>
+            <br></br>
+            <div>
+              <a className="subheading" href="#">
+                Fresh Products
+              </a>
+            </div>
+          </div>
+          <div className=" ">
+            <input
+              className="searchbar"
+              type="text"
+              placeholder="Your Email"
+            ></input>
+            <button className="my-btn ">Subscribe Now</button>
           </div>
 
-          <div className="social_links">
+          <div className="social_links ">
             <button className="social" href="#">
               <i className="fa fa-twitter"></i>
             </button>
@@ -30,7 +39,7 @@ export const Footer = () => {
               <i className="fa fa-youtube-play"></i>
             </button>
             <button className="social" href="#">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i className="fa fa-linkedin" aria-hidden="true"></i>
             </button>
           </div>
         </div>
@@ -38,9 +47,11 @@ export const Footer = () => {
         <hr className="my-line" />
 
         <div>
-          <div className="jar">
-            <div>
-              <h4 className="another-heading">Why People Like us!</h4>
+          <div className="jar row">
+            <div className="col">
+              <h3 className="another-heading" style={{ color: "white" }}>
+                Why People Like us!
+              </h3>
               <div className="my-txt" style={{ width: "300px" }}>
                 <p className="text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -53,7 +64,10 @@ export const Footer = () => {
               </div>
             </div>
             <br></br>
-            <div className="footer-col">
+            <div
+              className="footer-col col "
+              style={{ color: "rgba(255, 255, 255, .5) !important" }}
+            >
               <h4 className="ruhi">Shop Info</h4>
               <ul>
                 <li className="list">
@@ -77,7 +91,7 @@ export const Footer = () => {
               </ul>
               <br></br>
             </div>
-            <div className="footer-col">
+            <div className="footer-col col">
               <h4 className="ruhi">Account</h4>
               <ul>
                 <li className="list">
@@ -101,7 +115,7 @@ export const Footer = () => {
               </ul>
               <br></br>
             </div>
-            <div className="footer-col">
+            <div className="footer-col col">
               <h4 className="ruhi">Contact</h4>
               <ul>
                 <li className="list"> Address:12345</li>
