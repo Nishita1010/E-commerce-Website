@@ -6,25 +6,33 @@ export const Footer = () => {
   return (
     <footer>
       <div className="my-container">
-        <div className="upperpart row g-4">
-          <div>
-            <div className="heading col-lg-3">
+        <div className="upperpart row g-4 d-flex flex-wrap">
+          <div className="flex-grow-1">
+            <div className="  heading col-lg-3">
               <h1>Freggies</h1>
             </div>
             <br></br>
-            <div>
-              <a className="subheading" href="#">
-                Fresh Products
-              </a>
-            </div>
           </div>
-          <div className=" ">
-            <input
-              className="searchbar"
-              type="text"
-              placeholder="Your Email"
-            ></input>
-            <button className="my-btn ">Subscribe Now</button>
+          <div className="searchbar_container container ">
+            <div className="row">
+              <input
+                className="searchbar flex col"
+                type="text"
+                placeholder="Your Email"
+              ></input>
+
+              <button
+                className="my-btn  ms-n10"
+                style={{
+                  height: "51px",
+                  marginLeft: "-50px",
+                  backgroundColor: "rgb(145, 211, 40)",
+                  color: "white",
+                }}
+              >
+                Subscribe Now
+              </button>
+            </div>
           </div>
 
           <div className="social_links ">
@@ -42,6 +50,11 @@ export const Footer = () => {
               <i className="fa fa-linkedin" aria-hidden="true"></i>
             </button>
           </div>
+        </div>
+        <div>
+          <a className="subheading" href="#">
+            Fresh Products
+          </a>
         </div>
 
         <hr className="my-line" />
