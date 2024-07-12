@@ -37,10 +37,20 @@ padding: 20px;
     border-color: #ffb524 !important;
 }
 
+
+
 .btn-search {
     color: #81c408 !important;
     text-decoration: none;
+    z-index: 1;
 }
+
+.btn-search:hover{
+    background-color: #ffb524 !important;
+    transition: 0.4s;
+}
+
+
 
 .btn {
     font-weight: 600;
