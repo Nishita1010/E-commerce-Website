@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer>
       <div className="my-container">
-        <div className="upperpart row g-4 d-flex flex-wrap">
+        <div className="upperpart row g-4 d-flex flex-wrap flex flex-row justify-content-between">
           <div className="flex-grow-1">
             <div className="  heading col-lg-3">
               <h1>Freggies</h1>
@@ -104,7 +104,7 @@ export const Footer = () => {
               </ul>
               <br></br>
             </div>
-            <div className="footer-col col">
+            <div className="footer-col col text-color-">
               <h4 className="ruhi">Account</h4>
               <ul>
                 <li className="list">
@@ -128,8 +128,8 @@ export const Footer = () => {
               </ul>
               <br></br>
             </div>
-            <div className="footer-col col">
-              <h4 className="ruhi">Contact</h4>
+            <div className="footer-col col justify-content-start">
+              <h4 className="ruhi ">Contact</h4>
               <ul>
                 <li className="list"> Address:12345</li>
                 <li className="list"> Email: freggies@gmail.com</li>
@@ -139,6 +139,14 @@ export const Footer = () => {
               <img src="./images/payment.png" alt="Payment accepted" />
             </div>
           </div>
+        </div>
+
+        <div>
+          <p>
+            {" "}
+            <span className="">&copy;</span> Freggies, All rights reserved.
+          </p>
+          <p> Designed by Distributed by </p>
         </div>
       </div>
     </footer>
